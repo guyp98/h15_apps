@@ -172,7 +172,7 @@ std::string buildPipeline(){
     // Basic Directories
     const std::string POSTPROCESS_DIR = "/usr/lib/hailo-post-processes";
     const std::string CROPPING_ALGORITHMS_DIR = POSTPROCESS_DIR + "/cropping_algorithms";
-    const std::string RESOURCES_DIR = "/home/root/VHT/resources";
+    const std::string RESOURCES_DIR = "./resources";
 
     // Default Video
     const std::string DEFAULT_VIDEO_SOURCE = "/dev/video0";
